@@ -79,7 +79,7 @@ if weights are updated every steps and expectation be replaced by single sample 
 
 - key feature is applying SGD to reinforcement learning
 
-![스크린샷 2022-03-31 오후 4.36.30.png](DQN%20228aa/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-03-31_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.36.30.png)
+![_config.yml](/images/DQN_pseudo.png)
 
 - advantages of DQN
     - with experience replay, data could be used in many weight updates; data efficiency
