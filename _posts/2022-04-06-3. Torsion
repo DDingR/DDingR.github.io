@@ -1,0 +1,92 @@
+---
+layout: post
+comments: true
+date: 2022-04-06
+title: "3. Torsion"
+description: "Mechanics of Materials Chapter3"
+---
+
+Mechanics of Materials Chapter3
+
+## 3.2 Torsional Deformations of a Circular Bar
+
+- assumption; small angle twist
+
+![_config.yml](/images/MechanicsOfMaterials/torsion_figure1.png)
+
+$$
+\gamma = \rho d\phi / dx = \rho \theta = {\rho\over r}\gamma_\text{max}\\
+ \text{from} \quad \gamma dx = \rho d\phi
+$$
+
+- shear strain proportionally increase with radius
+- $d\phi/dx$ is called __rate of twist__; angle of twist per unit length
+
+## 3.3 Circular Bars of Linearly Elastic Materials
+
+![_config.yml](/images/MechanicsOfMaterials/torsion_figure2.png)
+
+- use Hooke's Law
+
+$$
+\tau = G\gamma = G\rho\theta = G\rho\phi/dx = {\rho\over r} \tau _\text{max}
+$$
+
+- for out-surface values, $\rho$ would be maximum value; $r$
+
+__The Torsion Formula__
+
+![_config.yml](/images/MechanicsOfMaterials/torsion_figure3.png)
+
+moment at small area
+
+$$
+dM = \tau\rho\,dA = {\tau_\text{max} \over r} \rho^2\,dA
+$$
+
+integral over entire cross-sectional area
+
+$$
+T = \int_A dM = {\tau_\text{max}\over r} \int_A\rho^2\,dA = {\tau_\text{max} \over r} I_P
+$$
+
+- $I_P$ is called __poliar moment of inertia__
+
+shear stress on the surface by torsion
+
+$$
+\tau_\text{max} = {Tr\over I_P}
+$$
+
+__Angle of Twist__
+
+$$
+\theta = {d\phi \over dx} = {T\over G I_P}
+\\
+
+\because \quad \tau / G\rho = \gamma/\rho =  \theta = {T\over G I_P}
+$$
+
+- also able to define __torsional stiffness__
+
+$$
+k_T = {GI_P\over L} \quad | \quad k={EA\over L}
+$$
+
+
+## 3.5 Stresses and Strains in Pure Shear
+
+![_config.yml](/images/MechanicsOfMaterials/torsion_figure4.png)
+
+$$
+\sigma_\theta  = \tau \sin 2\theta \quad \tau_\theta = \tau \cos 2 \theta
+$$
+
+- stress elements oriented at $\theta = 0\ \text{or} \ \theta = 45\quad \text{[DEG]}$
+
+__Strains in Pure Shear__
+
+$$
+\epsilon_\text{max} = {\tau\over E} + {\nu\tau \over E} = {\tau\over E}(1+\nu) \quad \text{at}\ \theta = 45
+$$
+
